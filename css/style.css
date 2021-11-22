@@ -1,0 +1,53 @@
+:root {
+  --primary-text-color: rgb(255, 255, 255);
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-first {
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+}
+
+.site-nav {
+  list-style: none;
+}
+
+.site-nav:hover,
+.site-nav:focus {
+  color: #2196f3;
+}
+
+.contact-info a {
+  text-decoration: none;
+}
+
+.contact-info:hover,
+.contact-info:focus {
+  color: #2196f3;
+}
+.site-nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.button {
+  background-color: #2196f3;
+  color: #fff;
+  border: rgba(0, 0, 0, 0);
+}
+
+.button:hover,
+.button:focus {
+}
