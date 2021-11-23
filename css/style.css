@@ -11,6 +11,11 @@
   letter-spacing: 0.03em;
 }
 
+a {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
 .logo,
 .logo:hover,
 .logo:focus {
@@ -33,6 +38,20 @@
 .list {
   list-style: none;
   text-decoration: none;
+}
+
+.projects {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projest-type {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
 }
 
 .site-nav .list {
@@ -96,9 +115,6 @@
   color: var(--primary-text-color);
 }
 
-
-}
-
 .advantages-title {
   width: 270px;
   height: 16px;
@@ -120,7 +136,7 @@
 }
 
 .team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .our-team {
@@ -131,7 +147,7 @@
 }
 
 .footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .address {
