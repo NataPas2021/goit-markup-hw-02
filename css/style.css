@@ -39,7 +39,13 @@ ul a {
 }
 
 .logo-first {
+  font-family: var(--logo-font);
   color: var(--accent-color);
+}
+
+.logo-second {
+  font-family: var(--logo-font);
+  color: var(--background-color);
 }
 
 .site-nav.list {
@@ -60,6 +66,9 @@ ul a {
   color: var(--accent-color);
 }
 
+.active {
+  color: var(--accent-color);
+}
 .mail,
 .telephone {
   font-weight: 500;
